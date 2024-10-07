@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+                <img src="imagens/pexels-lawlesscapture-13737660 (1).jpg" alt="imagem login">
+            </div>
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.php" method="post">
+                    <div><label for="iemail"><input type="email" name="email" id="iemail" placeholder="seu e-mail" required></label></div>
+                    <div><label for="isenha"><input type="password" name="senha" id="isenha" placeholder="sua senha" required minlength="8"></label></div>
+        
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+
+        </section>
+
+        <form method="post">
+            <div><label for="iemail"><input type="email" name="email" id="iemail" placeholder="seu e-mail" required></label></div>
+            <div><label for="isenha"><input type="password" name="senha" id="isenha" placeholder="sua senha" required minlength="8"></label></div>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+</body>
+</html>
